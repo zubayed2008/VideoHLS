@@ -43,6 +43,12 @@
                 forced: true,
                 onChange: (e) => updateQuality(e),
             }
+
+            defaultOptions.poster = "/image/thumbnail.jpg";
+            defaultOptions.previewThumbnails = {
+                enabled: true,
+                src: "/image/thumbnail.jpg"
+            };
             defaultOptions.controls = [
                 'play-large', // The large play button in the center
                 'restart', // Restart playback
